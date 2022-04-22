@@ -20,10 +20,12 @@
 ![Browser](Images/Screenshot_16.png)
 ![Browser](Images/Screenshot_17.png)
 
-<pre><font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~</b></font>$ cd Documents/
-<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ ls
+* Cat Command use 1
+```ssh
+jdublnx@JDUBUNTO:~$ cd Documents/
+jdublnx@JDUBUNTO:~/Documents$ ls
 file1.txt
-<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ cat file1.txt 
+jdublnx@JDUBUNTO:~/Documents$ cat file1.txt 
 total 100
 drwxr-xr-x 16 jdublnx jdublnx 4096  4月 22 11:15 .
 drwxr-xr-x  3 root    root    4096  4月 21 14:04 ..
@@ -51,13 +53,13 @@ drwxr-xr-x  2 jdublnx jdublnx 4096  4月 21 14:13 Videos
 -rw-r-----  1 jdublnx jdublnx    5  4月 22 09:12 .vboxclient-draganddrop.pid
 -rw-r-----  1 jdublnx jdublnx    5  4月 22 09:12 .vboxclient-seamless.pid
 -rw-r--r--  1 jdublnx jdublnx    0  4月 21 14:17 .sudo_as_admin_successful
-<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ cat &gt; file2.txt
+jdublnx@JDUBUNTO:~/Documents$ cat > file2.txt
 hi my name is jd
 welcome to linux world 
-<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ cat file2.txt 
+jdublnx@JDUBUNTO:~/Documents$ cat file2.txt 
 hi my name is jd
 welcome to linux world
-<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ cat file1.txt 
+jdublnx@JDUBUNTO:~/Documents$ cat file1.txt 
 total 100
 drwxr-xr-x 16 jdublnx jdublnx 4096  4月 22 11:15 .
 drwxr-xr-x  3 root    root    4096  4月 21 14:04 ..
@@ -85,7 +87,7 @@ drwxr-xr-x  2 jdublnx jdublnx 4096  4月 21 14:13 Videos
 -rw-r-----  1 jdublnx jdublnx    5  4月 22 09:12 .vboxclient-draganddrop.pid
 -rw-r-----  1 jdublnx jdublnx    5  4月 22 09:12 .vboxclient-seamless.pid
 -rw-r--r--  1 jdublnx jdublnx    0  4月 21 14:17 .sudo_as_admin_successful
-<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ cat file1.txt file2.txt 
+jdublnx@JDUBUNTO:~/Documents$ cat file1.txt file2.txt 
 total 100
 drwxr-xr-x 16 jdublnx jdublnx 4096  4月 22 11:15 .
 drwxr-xr-x  3 root    root    4096  4月 21 14:04 ..
@@ -115,8 +117,8 @@ drwxr-xr-x  2 jdublnx jdublnx 4096  4月 21 14:13 Videos
 -rw-r--r--  1 jdublnx jdublnx    0  4月 21 14:17 .sudo_as_admin_successful
 hi my name is jd
 welcome to linux world
-<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ cat file1.txt &gt;&gt; file2.txt 
-<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ cat file2.txt 
+jdublnx@JDUBUNTO:~/Documents$ cat file1.txt >> file2.txt 
+jdublnx@JDUBUNTO:~/Documents$ cat file2.txt 
 hi my name is jd
 welcome to linux world
 total 100
@@ -146,5 +148,6 @@ drwxr-xr-x  2 jdublnx jdublnx 4096  4月 21 14:13 Videos
 -rw-r-----  1 jdublnx jdublnx    5  4月 22 09:12 .vboxclient-draganddrop.pid
 -rw-r-----  1 jdublnx jdublnx    5  4月 22 09:12 .vboxclient-seamless.pid
 -rw-r--r--  1 jdublnx jdublnx    0  4月 21 14:17 .sudo_as_admin_successful
-<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ ^C
-</pre>
+jdublnx@JDUBUNTO:~/Documents$ ^C
+
+```
