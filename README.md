@@ -2,22 +2,36 @@
 
 ## Linux High level understanding
 
+### Linux Introduction
 ![Browser](Images/Screenshot_01.png)
+---
+### Linux Distributions
 ![Browser](Images/Screenshot_02.png)
+---
+### Linux Features
 ![Browser](Images/Screenshot_03.png)
+---
+### Basic Commands PWD and clear
 ![Browser](Images/Screenshot_04.png)
 ![Browser](Images/Screenshot_05.png)
 ![Browser](Images/Screenshot_06.png)
 ![Browser](Images/Screenshot_07.png)
+---
+### ls commands
 ![Browser](Images/Screenshot_08.png)
 ![Browser](Images/Screenshot_09.png)
 ![Browser](Images/Screenshot_10.png)
 ![Browser](Images/Screenshot_11.png)
 ![Browser](Images/Screenshot_12.png)
 ![Browser](Images/Screenshot_13.png)
+---
+### cd commands
 ![Browser](Images/Screenshot_14.png)
 ![Browser](Images/Screenshot_15.png)
 ![Browser](Images/Screenshot_16.png)
+
+---
+### cat commands
 ![Browser](Images/Screenshot_17.png)
 
 * Cat Command use 1
@@ -218,4 +232,83 @@ jdublnx@JDUBUNTO:~/Documents$ vi file2.txt
 jdublnx@JDUBUNTO:~/Documents$ 
 ```
 
+---
+### grep commands
+
 ![Browser](Images/Screenshot_18.png)
+
+
+* Grep Command Usage
+
+```linux
+jdublnx@JDUBUNTO:~/Documents$ cat Automobiles.txt 
+Car
+Mortorbikes
+Train
+Maruti
+Ferrari
+Lamborgini
+Yamaha
+Aprillia
+Tata Motor
+Honda
+Suzuki
+BMW
+Audi
+Volkswagen
+jdublnx@JDUBUNTO:~/Documents$ grep am Automobiles.txt 
+Lamborgini
+Yamaha
+jdublnx@JDUBUNTO:~/Documents$ grep -i am Automobiles.txt 
+Lamborgini
+Yamaha
+jdublnx@JDUBUNTO:~/Documents$ grep -i am Automobiles.txt 
+Lamborgini
+Yamaha
+Amber
+jdublnx@JDUBUNTO:~/Documents$ grep am Automobiles.txt 
+Lamborgini
+Yamaha
+jdublnx@JDUBUNTO:~/Documents$ grep -i am Automobiles.txt 
+Lamborgini
+Yamaha
+Amber
+jdublnx@JDUBUNTO:~/Documents$ grep -n am Automobiles.txt 
+6:Lamborgini
+7:Yamaha
+jdublnx@JDUBUNTO:~/Documents$ grep -v am Automobiles.txt 
+Car
+Mortorbikes
+Train
+Maruti
+Ferrari
+Aprillia
+Tata Motor
+Honda
+Suzuki
+BMW
+Audi
+Volkswagen
+Amber
+jdublnx@JDUBUNTO:~/Documents$ grep -iv am Automobiles.txt 
+Car
+Mortorbikes
+Train
+Maruti
+Ferrari
+Aprillia
+Tata Motor
+Honda
+Suzuki
+BMW
+Audi
+Volkswagen
+jdublnx@JDUBUNTO:~/Documents$ grep -c am Automobiles.txt 
+2
+jdublnx@JDUBUNTO:~/Documents$ grep -ic am Automobiles.txt 
+3
+jdublnx@JDUBUNTO:~/Documents$ 
+
+```
+
+---
