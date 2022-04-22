@@ -317,7 +317,7 @@ jdublnx@JDUBUNTO:~/Documents$
 
 ![Browser](Images/Screenshot_19.png)
 
-```linux
+```bash
 jdublnx@JDUBUNTO:~/Documents$ cat Automobiles.txt 
 Car
 Mortorbikes
