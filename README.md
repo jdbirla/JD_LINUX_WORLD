@@ -217,3 +217,5 @@ jdublnx@JDUBUNTO:~/Documents$ cat -b file2.txt
 jdublnx@JDUBUNTO:~/Documents$ vi file2.txt 
 jdublnx@JDUBUNTO:~/Documents$ 
 ```
+
+![Browser](Images/Screenshot_18.png)
