@@ -446,3 +446,9 @@ Yamaha
 <font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ sort -n Automobiles.txt 
 </pre>
 </html>
+
+---
+
+### pipe commands
+
+![Browser](Images/Screenshot_20.png)
