@@ -316,3 +316,133 @@ jdublnx@JDUBUNTO:~/Documents$
 ### sort commands
 
 ![Browser](Images/Screenshot_19.png)
+
+```linux
+jdublnx@JDUBUNTO:~/Documents$ cat Automobiles.txt 
+Car
+Mortorbikes
+Train
+Maruti
+Ferrari
+Lamborgini
+Yamaha
+Aprillia
+Tata Motor
+Honda
+Suzuki
+BMW
+Audi
+Volkswagen
+Amber
+jdublnx@JDUBUNTO:~/Documents$ sort Automobiles.txt 
+Amber
+Aprillia
+Audi
+BMW
+Car
+Ferrari
+Honda
+Lamborgini
+Maruti
+Mortorbikes
+Suzuki
+Tata Motor
+Train
+Volkswagen
+Yamaha
+jdublnx@JDUBUNTO:~/Documents$ sort Automobiles.txt file2.txt 
+Amber
+Aprillia
+Audi
+BMW
+Car
+drwx------ 11 jdublnx jdublnx 4096  4月 21 14:25 .config
+drwx------  2 jdublnx jdublnx 4096  4月 21 14:14 .ssh
+drwx------  3 jdublnx jdublnx 4096  4月 21 14:14 .gnupg
+drwx------  4 jdublnx jdublnx 4096  4月 21 14:19 .mozilla
+drwxr-xr-x 13 jdublnx jdublnx 4096  4月 21 16:11 .cache
+drwxr-xr-x 16 jdublnx jdublnx 4096  4月 22 11:15 .
+drwxr-xr-x  2 jdublnx jdublnx 4096  4月 21 14:13 Downloads
+drwxr-xr-x  2 jdublnx jdublnx 4096  4月 21 14:13 Music
+drwxr-xr-x  2 jdublnx jdublnx 4096  4月 21 14:13 Pictures
+drwxr-xr-x  2 jdublnx jdublnx 4096  4月 21 14:13 Public
+drwxr-xr-x  2 jdublnx jdublnx 4096  4月 21 14:13 Templates
+drwxr-xr-x  2 jdublnx jdublnx 4096  4月 21 14:13 Videos
+drwxr-xr-x  2 jdublnx jdublnx 4096  4月 22 09:25 Desktop
+drwxr-xr-x  2 jdublnx jdublnx 4096  4月 22 11:25 Documents
+drwxr-xr-x  3 jdublnx jdublnx 4096  4月 21 14:13 .local
+drwxr-xr-x  3 root    root    4096  4月 21 14:04 ..
+Ferrari
+Hi my name is jd
+Honda
+Lamborgini
+Maruti
+Mortorbikes
+-rw-------  1 jdublnx jdublnx  378  4月 22 09:47 .bash_history
+-rw-r-----  1 jdublnx jdublnx    5  4月 22 09:12 .vboxclient-clipboard.pid
+-rw-r-----  1 jdublnx jdublnx    5  4月 22 09:12 .vboxclient-display-svga-x11.pid
+-rw-r-----  1 jdublnx jdublnx    5  4月 22 09:12 .vboxclient-draganddrop.pid
+-rw-r-----  1 jdublnx jdublnx    5  4月 22 09:12 .vboxclient-seamless.pid
+-rw-r--r--  1 jdublnx jdublnx    0  4月 21 14:17 .sudo_as_admin_successful
+-rw-r--r--  1 jdublnx jdublnx  220  4月 21 14:04 .bash_logout
+-rw-r--r--  1 jdublnx jdublnx 3771  4月 21 14:04 .bashrc
+-rw-r--r--  1 jdublnx jdublnx  807  4月 21 14:04 .profile
+-rw-rw-rw-  1 jdublnx jdublnx 1929  4月 22 11:15 Install_CentOS_in_VM.md
+Suzuki
+Tata Motor
+Total 100
+Train
+Volkswagen
+welcome to linux world
+Yamaha
+jdublnx@JDUBUNTO:~/Documents$ sort -r Automobiles.txt 
+Yamaha
+Volkswagen
+Train
+Tata Motor
+Suzuki
+Mortorbikes
+Maruti
+Lamborgini
+Honda
+Ferrari
+Car
+BMW
+Audi
+Aprillia
+Amber
+jdublnx@JDUBUNTO:~/Documents$ sort -f Automobiles.txt 
+Amber
+Aprillia
+Audi
+BMW
+Car
+Ferrari
+Honda
+Lamborgini
+Maruti
+Mortorbikes
+Suzuki
+Tata Motor
+Train
+Volkswagen
+Yamaha
+jdublnx@JDUBUNTO:~/Documents$ sort -n Automobiles.txt 
+Amber
+Aprillia
+Audi
+BMW
+Car
+Ferrari
+Honda
+Lamborgini
+Maruti
+Mortorbikes
+Suzuki
+Tata Motor
+Train
+Volkswagen
+Yamaha
+jdublnx@JDUBUNTO:~/Documents$ sort -n Automobiles.txt 
+
+```
