@@ -502,3 +502,11 @@ cp: overwrite &apos;/home/jdublnx/Desktop/Automobiles.txt&apos;? n
 </pre>
 </body>
 </html>
+
+---
+### mv commands
+
+![Browser](Images/Screenshot_22.png)
+
+<html>
+<body>
