@@ -452,3 +452,19 @@ Yamaha
 ### pipe commands
 
 ![Browser](Images/Screenshot_20.png)
+<html>
+<body>
+<pre>
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ grep am Automobiles.txt | sort
+Lamborgini
+Yamaha
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ grep am Automobiles.txt | sort -r
+Yamaha
+Lamborgini
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ 
+
+</pre>
+</body>
+</html>
+
+
