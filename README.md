@@ -317,8 +317,8 @@ jdublnx@JDUBUNTO:~/Documents$
 
 ![Browser](Images/Screenshot_19.png)
 
-```java
-jdublnx@JDUBUNTO:~/Documents$ cat Automobiles.txt 
+```html
+<pre><font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ cat Automobiles.txt 
 Car
 Mortorbikes
 Train
@@ -334,7 +334,7 @@ BMW
 Audi
 Volkswagen
 Amber
-jdublnx@JDUBUNTO:~/Documents$ sort Automobiles.txt 
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ sort Automobiles.txt 
 Amber
 Aprillia
 Audi
@@ -350,7 +350,7 @@ Tata Motor
 Train
 Volkswagen
 Yamaha
-jdublnx@JDUBUNTO:~/Documents$ sort Automobiles.txt file2.txt 
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ sort Automobiles.txt file2.txt 
 Amber
 Aprillia
 Audi
@@ -395,7 +395,7 @@ Train
 Volkswagen
 welcome to linux world
 Yamaha
-jdublnx@JDUBUNTO:~/Documents$ sort -r Automobiles.txt 
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ sort -r Automobiles.txt 
 Yamaha
 Volkswagen
 Train
@@ -411,7 +411,7 @@ BMW
 Audi
 Aprillia
 Amber
-jdublnx@JDUBUNTO:~/Documents$ sort -f Automobiles.txt 
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ sort -f Automobiles.txt 
 Amber
 Aprillia
 Audi
@@ -427,7 +427,7 @@ Tata Motor
 Train
 Volkswagen
 Yamaha
-jdublnx@JDUBUNTO:~/Documents$ sort -n Automobiles.txt 
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ sort -n Automobiles.txt 
 Amber
 Aprillia
 Audi
@@ -443,6 +443,7 @@ Tata Motor
 Train
 Volkswagen
 Yamaha
-jdublnx@JDUBUNTO:~/Documents$ sort -n Automobiles.txt 
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ sort -n Automobiles.txt 
+</pre>
 
 ```
