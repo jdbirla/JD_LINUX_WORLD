@@ -317,7 +317,7 @@ jdublnx@JDUBUNTO:~/Documents$
 
 ![Browser](Images/Screenshot_19.png)
 
-
+<html>
 <pre><font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ cat Automobiles.txt 
 Car
 Mortorbikes
@@ -445,3 +445,4 @@ Volkswagen
 Yamaha
 <font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ sort -n Automobiles.txt 
 </pre>
+</html>
