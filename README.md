@@ -707,3 +707,36 @@ drwxr-xr-x 2 jdublnx jdublnx 4096  4月 21 14:13 <font color="#3465A4"><b>Videos
 
 ![Browser](Images/Screenshot_27.png)
 
+
+<html>
+<body>
+
+<pre><font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~</b></font>$ sudo apt-get install openjdk-8-jdk
+[sudo] password for jdublnx: 
+</pre>
+
+<pre><font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~</b></font>$ java -version
+openjdk version &quot;1.8.0_312&quot;
+OpenJDK Runtime Environment (build 1.8.0_312-8u312-b07-0ubuntu1~20.04-b07)
+OpenJDK 64-Bit Server VM (build 25.312-b07, mixed mode)
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~</b></font>$ </pre>
+</body>
+</html>
+
+* Java Home path set
+```sh
+jdublnx@JDUBUNTO:~$ echo $JAVA_HOME
+
+jdublnx@JDUBUNTO:~$ export JAVA_HOME=/usr/lib
+lib/     lib32/   lib64/   libexec/ libx32/  
+jdublnx@JDUBUNTO:~$ export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/
+jdublnx@JDUBUNTO:~$ echo $JAVA_HOME
+/usr/lib/jvm/java-8-openjdk-amd64/
+jdublnx@JDUBUNTO:~$ export PATH=$PATH:$JAVA_HOME/bin
+jdublnx@JDUBUNTO:~$ echo $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-openjdk-amd64//bin
+jdublnx@JDUBUNTO:~$ java -version
+openjdk version "1.8.0_312"
+OpenJDK Runtime Environment (build 1.8.0_312-8u312-b07-0ubuntu1~20.04-b07)
+OpenJDK 64-Bit Server VM (build 25.312-b07, mixed mode)
+```
