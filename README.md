@@ -595,3 +595,8 @@ mkdir: cannot create directory ‘Folder2’: File exists
 </pre>
 </body>
 </html>
+
+---
+### rm & rmdir commands
+
+![Browser](Images/Screenshot_24.png)
