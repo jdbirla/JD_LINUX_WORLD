@@ -885,7 +885,65 @@ en_US.UTF-8
 
 <html>
 <body>
-
+<pre><font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~</b></font>$ cd Documents/
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ ls
+Automobiles.txt  file1.txt  file2.txt  <font color="#3465A4"><b>Folder1</b></font>  <font color="#3465A4"><b>LMS</b></font>  <font color="#CC0000"><b>lms.tar</b></font>
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ cat Automobiles.txt 
+Car
+Mortorbikes
+Train
+Maruti
+Ferrari
+Lamborgini
+Yamaha
+Aprillia
+Tata Motor
+Honda
+Suzuki
+BMW
+Audi
+Volkswagen
+Amber
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ cat Automobiles.txt  | grep a
+C<font color="#CC0000"><b>a</b></font>r
+Tr<font color="#CC0000"><b>a</b></font>in
+M<font color="#CC0000"><b>a</b></font>ruti
+Ferr<font color="#CC0000"><b>a</b></font>ri
+L<font color="#CC0000"><b>a</b></font>mborgini
+Y<font color="#CC0000"><b>a</b></font>m<font color="#CC0000"><b>a</b></font>h<font color="#CC0000"><b>a</b></font>
+Aprilli<font color="#CC0000"><b>a</b></font>
+T<font color="#CC0000"><b>a</b></font>t<font color="#CC0000"><b>a</b></font> Motor
+Hond<font color="#CC0000"><b>a</b></font>
+Volksw<font color="#CC0000"><b>a</b></font>gen
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ cat Automobiles.txt  | grep ^a
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ cat Automobiles.txt  | grep -i ^a
+<font color="#CC0000"><b>A</b></font>prillia
+<font color="#CC0000"><b>A</b></font>udi
+<font color="#CC0000"><b>A</b></font>mber
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ cat Automobiles.txt  | grep -i $a
+Usage: grep [OPTION]... PATTERNS [FILE]...
+Try &apos;grep --help&apos; for more information.
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ cat Automobiles.txt  | grep -i &apos;$a&apos;
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ cat Automobiles.txt  | grep -n &apos;a*&apos;
+<font color="#4E9A06">1</font><font color="#06989A">:</font>C<font color="#CC0000"><b>a</b></font>r
+<font color="#4E9A06">2</font><font color="#06989A">:</font>Mortorbikes
+<font color="#4E9A06">3</font><font color="#06989A">:</font>Tr<font color="#CC0000"><b>a</b></font>in
+<font color="#4E9A06">4</font><font color="#06989A">:</font>M<font color="#CC0000"><b>a</b></font>ruti
+<font color="#4E9A06">5</font><font color="#06989A">:</font>Ferr<font color="#CC0000"><b>a</b></font>ri
+<font color="#4E9A06">6</font><font color="#06989A">:</font>L<font color="#CC0000"><b>a</b></font>mborgini
+<font color="#4E9A06">7</font><font color="#06989A">:</font>Y<font color="#CC0000"><b>a</b></font>m<font color="#CC0000"><b>a</b></font>h<font color="#CC0000"><b>a</b></font>
+<font color="#4E9A06">8</font><font color="#06989A">:</font>Aprilli<font color="#CC0000"><b>a</b></font>
+<font color="#4E9A06">9</font><font color="#06989A">:</font>T<font color="#CC0000"><b>a</b></font>t<font color="#CC0000"><b>a</b></font> Motor
+<font color="#4E9A06">10</font><font color="#06989A">:</font>Hond<font color="#CC0000"><b>a</b></font>
+<font color="#4E9A06">11</font><font color="#06989A">:</font>Suzuki
+<font color="#4E9A06">12</font><font color="#06989A">:</font>BMW
+<font color="#4E9A06">13</font><font color="#06989A">:</font>Audi
+<font color="#4E9A06">14</font><font color="#06989A">:</font>Volksw<font color="#CC0000"><b>a</b></font>gen
+<font color="#4E9A06">15</font><font color="#06989A">:</font>Amber
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ echo {a..z}
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ 
+</pre>
 
 </body>
 </html>
