@@ -665,3 +665,40 @@ drwxr-xr-x 2 jdublnx jdublnx 4096  4月 21 14:13 <font color="#3465A4"><b>Videos
 ![Browser](Images/Screenshot_26.png)
 
 
+<html>
+<body>
+<pre><font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~</b></font>$ ls
+<font color="#3465A4"><b>Desktop</b></font>  <font color="#3465A4"><b>Documents</b></font>  <font color="#3465A4"><b>Downloads</b></font>  file1.txt  Install_CentOS_in_VM.md  <font color="#3465A4"><b>Music</b></font>  <font color="#3465A4"><b>Pictures</b></font>  <font color="#3465A4"><b>Public</b></font>  <font color="#3465A4"><b>Templates</b></font>  <font color="#3465A4"><b>Videos</b></font>
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~</b></font>$ ls -l
+total 40
+drwxr-xr-x 3 jdublnx jdublnx 4096  4月 23 15:19 <font color="#3465A4"><b>Desktop</b></font>
+drwxr-xr-x 4 jdublnx jdublnx 4096  4月 23 15:35 <font color="#3465A4"><b>Documents</b></font>
+drwxr-xr-x 2 jdublnx jdublnx 4096  4月 21 14:13 <font color="#3465A4"><b>Downloads</b></font>
+-rw-rw-r-- 1 jdublnx jdublnx 1691  4月 22 13:24 file1.txt
+-rw-rw-rw- 1 jdublnx jdublnx 1929  4月 22 11:15 Install_CentOS_in_VM.md
+drwxr-xr-x 2 jdublnx jdublnx 4096  4月 23 15:30 <font color="#3465A4"><b>Music</b></font>
+drwxr-xr-x 2 jdublnx jdublnx 4096  4月 23 15:30 <font color="#3465A4"><b>Pictures</b></font>
+drwxr-xr-x 2 jdublnx jdublnx 4096  4月 21 14:13 <font color="#3465A4"><b>Public</b></font>
+drwxr-xr-x 2 jdublnx jdublnx 4096  4月 21 14:13 <font color="#3465A4"><b>Templates</b></font>
+drwxr-xr-x 2 jdublnx jdublnx 4096  4月 21 14:13 <font color="#3465A4"><b>Videos</b></font>
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~</b></font>$ chmod g=rw,o-x Pictures/
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~</b></font>$ ls -l
+total 40
+drwxr-xr-x 3 jdublnx jdublnx 4096  4月 23 15:19 <font color="#3465A4"><b>Desktop</b></font>
+drwxr-xr-x 4 jdublnx jdublnx 4096  4月 23 15:35 <font color="#3465A4"><b>Documents</b></font>
+drwxr-xr-x 2 jdublnx jdublnx 4096  4月 21 14:13 <font color="#3465A4"><b>Downloads</b></font>
+-rw-rw-r-- 1 jdublnx jdublnx 1691  4月 22 13:24 file1.txt
+-rw-rw-rw- 1 jdublnx jdublnx 1929  4月 22 11:15 Install_CentOS_in_VM.md
+drwxr-xr-x 2 jdublnx jdublnx 4096  4月 23 15:30 <font color="#3465A4"><b>Music</b></font>
+drwxrw-r-- 2 jdublnx jdublnx 4096  4月 23 15:30 <font color="#3465A4"><b>Pictures</b></font>
+drwxr-xr-x 2 jdublnx jdublnx 4096  4月 21 14:13 <font color="#3465A4"><b>Public</b></font>
+drwxr-xr-x 2 jdublnx jdublnx 4096  4月 21 14:13 <font color="#3465A4"><b>Templates</b></font>
+drwxr-xr-x 2 jdublnx jdublnx 4096  4月 21 14:13 <font color="#3465A4"><b>Videos</b></font>
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~</b></font>$ 
+
+</pre>
+</body>
+</html>
+
+
+
