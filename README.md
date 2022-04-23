@@ -789,3 +789,16 @@ drwxrwxr-x 2 jdublnx jdublnx  4096  4月 23 20:30 <font color="#3465A4"><b>LMS</
 </body>
 </html>
 
+---
+### Working with Environment Variables
+
+
+![Browser](Images/Screenshot_28.png)
+
+<html>
+<body>
+
+
+</body>
+</html>
+
