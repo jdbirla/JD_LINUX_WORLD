@@ -746,3 +746,46 @@ OpenJDK 64-Bit Server VM (build 25.312-b07, mixed mode)
 ### Working with Tar files
 
 ![Browser](Images/Screenshot_28.png)
+
+<html>
+<body>
+
+<pre><font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~</b></font>$ cd Documents/
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ ls
+Automobiles.txt  file1.txt  file2.txt  <font color="#3465A4"><b>Folder1</b></font>  <font color="#3465A4"><b>LMS</b></font>
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ ls -l
+total 20
+-rw-rw-r-- 1 jdublnx jdublnx  114  4月 23 15:24 Automobiles.txt
+-rw-rw-r-- 1 jdublnx jdublnx 1631  4月 23 15:24 file1.txt
+-rw-rw-r-- 1 jdublnx jdublnx 1671  4月 23 15:24 file2.txt
+drwxrwxr-x 4 jdublnx jdublnx 4096  4月 23 15:52 <font color="#3465A4"><b>Folder1</b></font>
+drwxrwxr-x 2 jdublnx jdublnx 4096  4月 22 17:15 <font color="#3465A4"><b>LMS</b></font>
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ tar -cvf lms.tar LMS
+LMS/
+LMS/file2.txt
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ ls
+Automobiles.txt  file1.txt  file2.txt  <font color="#3465A4"><b>Folder1</b></font>  <font color="#3465A4"><b>LMS</b></font>  <font color="#CC0000"><b>lms.tar</b></font>
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ ls -l
+total 32
+-rw-rw-r-- 1 jdublnx jdublnx   114  4月 23 15:24 Automobiles.txt
+-rw-rw-r-- 1 jdublnx jdublnx  1631  4月 23 15:24 file1.txt
+-rw-rw-r-- 1 jdublnx jdublnx  1671  4月 23 15:24 file2.txt
+drwxrwxr-x 4 jdublnx jdublnx  4096  4月 23 15:52 <font color="#3465A4"><b>Folder1</b></font>
+drwxrwxr-x 2 jdublnx jdublnx  4096  4月 23 20:30 <font color="#3465A4"><b>LMS</b></font>
+-rw-rw-r-- 1 jdublnx jdublnx 10240  4月 23 20:31 <font color="#CC0000"><b>lms.tar</b></font>
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ tar -xvf lms.tar 
+LMS/
+LMS/file2.txt
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ ls -l
+total 32
+-rw-rw-r-- 1 jdublnx jdublnx   114  4月 23 15:24 Automobiles.txt
+-rw-rw-r-- 1 jdublnx jdublnx  1631  4月 23 15:24 file1.txt
+-rw-rw-r-- 1 jdublnx jdublnx  1671  4月 23 15:24 file2.txt
+drwxrwxr-x 4 jdublnx jdublnx  4096  4月 23 15:52 <font color="#3465A4"><b>Folder1</b></font>
+drwxrwxr-x 2 jdublnx jdublnx  4096  4月 23 20:30 <font color="#3465A4"><b>LMS</b></font>
+-rw-rw-r-- 1 jdublnx jdublnx 10240  4月 23 20:31 <font color="#CC0000"><b>lms.tar</b></font>
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$</pre>
+
+</body>
+</html>
+
