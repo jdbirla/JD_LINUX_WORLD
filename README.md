@@ -560,3 +560,10 @@ Automobiles.txt  file1.txt  file2.txt
 </pre>
 </body>
 </html>
+
+
+---
+### mkdir commands
+
+![Browser](Images/Screenshot_23.png)
+
