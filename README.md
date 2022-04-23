@@ -740,3 +740,9 @@ openjdk version "1.8.0_312"
 OpenJDK Runtime Environment (build 1.8.0_312-8u312-b07-0ubuntu1~20.04-b07)
 OpenJDK 64-Bit Server VM (build 25.312-b07, mixed mode)
 ```
+
+---
+
+### Working with Tar files
+
+![Browser](Images/Screenshot_28.png)
