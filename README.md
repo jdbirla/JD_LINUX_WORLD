@@ -567,3 +567,31 @@ Automobiles.txt  file1.txt  file2.txt
 
 ![Browser](Images/Screenshot_23.png)
 
+
+<html>
+<body>
+<pre><font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ ls
+Automobiles.txt  file1.txt  file2.txt  <font color="#3465A4"><b>LMS</b></font>
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ mkdir Folder1
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ ls
+Automobiles.txt  file1.txt  file2.txt  <font color="#3465A4"><b>Folder1</b></font>  <font color="#3465A4"><b>LMS</b></font>
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents</b></font>$ cd Folder1/
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents/Folder1</b></font>$ ls
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents/Folder1</b></font>$ mkdir Folder2/Folder3/Folder4
+mkdir: cannot create directory ‘Folder2/Folder3/Folder4’: No such file or directory
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents/Folder1</b></font>$ mkdir -p Folder2/Folder3/Folder4
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents/Folder1</b></font>$ mkdir {Folder2,Folder3,Folder4}
+mkdir: cannot create directory ‘Folder2’: File exists
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents/Folder1</b></font>$ mkdir -p f2{Folder2,Folder3,Folder4}
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents/Folder1</b></font>$ ls
+<font color="#3465A4"><b>f2Folder2</b></font>  <font color="#3465A4"><b>f2Folder3</b></font>  <font color="#3465A4"><b>f2Folder4</b></font>  <font color="#3465A4"><b>Folder2</b></font>  <font color="#3465A4"><b>Folder3</b></font>  <font color="#3465A4"><b>Folder4</b></font>
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents/Folder1</b></font>$ ls
+<font color="#3465A4"><b>Folder2</b></font>  <font color="#3465A4"><b>Folder3</b></font>  <font color="#3465A4"><b>Folder4</b></font>
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents/Folder1</b></font>$ mkdir -p f2/{Folder2,Folder3,Folder4}
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents/Folder1</b></font>$ ls
+<font color="#3465A4"><b>f2</b></font>  <font color="#3465A4"><b>Folder2</b></font>  <font color="#3465A4"><b>Folder3</b></font>  <font color="#3465A4"><b>Folder4</b></font>
+<font color="#4E9A06"><b>jdublnx@JDUBUNTO</b></font>:<font color="#3465A4"><b>~/Documents/Folder1</b></font>$ 
+
+</pre>
+</body>
+</html>
