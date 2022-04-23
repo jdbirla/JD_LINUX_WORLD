@@ -636,3 +636,11 @@ rmdir: failed to remove &apos;Folder2/&apos;: Directory not empty
 </pre>
 </body>
 </html>
+
+---
+### Working with user Permissions : 'r','w' & 'x'
+
+![Browser](Images/Screenshot_25.png)
+
+
+
