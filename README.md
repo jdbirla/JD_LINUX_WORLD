@@ -1007,7 +1007,7 @@ Mandatory arguments to long options are mandatory for short options too.
 </html>
 
 ---
-## How to install linux in windows Os
+## How to install linux in windows OS
 - https://docs.microsoft.com/en-us/windows/wsl/install
 ### Access windows os files into linux 
 ```bash
