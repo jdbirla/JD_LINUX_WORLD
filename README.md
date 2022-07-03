@@ -1029,6 +1029,6 @@ jdwinlinux@DESKTOP-AS2FQOH:/mnt/c/D_Drive$ ls
 DXC  Job_Switch  Kirti  Personal  jdk-11.0.10_windows-x64_bin.exe  react
 jdwinlinux@DESKTOP-AS2FQOH:/mnt/c/D_Drive$
 ```
-###Access linux files from windows files system
+### Access linux files from windows files system
  used comman from linux terminal " ```explorer.exe . ```
  Winfows file system : ``` \\wsl$\Ubuntu\home\jdwinlinux ```
