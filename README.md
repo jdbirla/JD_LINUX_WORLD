@@ -1009,6 +1009,7 @@ Mandatory arguments to long options are mandatory for short options too.
 ---
 ## How to install linux in windows OS
 - https://docs.microsoft.com/en-us/windows/wsl/install
+- Turorial : https://docs.microsoft.com/en-us/windows/wsl/setup/environment
 ### Access windows os files into linux 
 ```bash
 jdwinlinux@DESKTOP-AS2FQOH:~/jddocs$ cd /mnt/c/
