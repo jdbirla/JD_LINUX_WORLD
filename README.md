@@ -1006,3 +1006,28 @@ Mandatory arguments to long options are mandatory for short options too.
 </body>
 </html>
 
+---
+## How to install linux in windows Os
+- https://docs.microsoft.com/en-us/windows/wsl/install
+### Access windows os files into linux 
+```bash
+jdwinlinux@DESKTOP-AS2FQOH:~/jddocs$ cd /mnt/c/
+jdwinlinux@DESKTOP-AS2FQOH:/mnt/c$ ls
+ls: cannot access 'DumpStack.log.tmp': Permission denied
+ls: cannot access 'hiberfil.sys': Permission denied
+ls: cannot access 'pagefile.sys': Permission denied
+ls: cannot access 'swapfile.sys': Permission denied
+'$Recycle.Bin'             DumpStack.log.tmp   PerfLogs                     Users          pagefile.sys
+'$WinREAgent'              Gradle             'Program Files'               Windows        selenium
+ AVScanner.ini             JD_Google_Drive    'Program Files (x86)'         app            swapfile.sys
+ C_Drive                   Kompose             ProgramData                  gh             xampp
+ D_Drive                   OD                  Recovery                     hiberfil.sys
+'Documents and Settings'   OneDriveTemp       'System Volume Information'   kubectl
+jdwinlinux@DESKTOP-AS2FQOH:/mnt/c$ cd D_Drive/
+jdwinlinux@DESKTOP-AS2FQOH:/mnt/c/D_Drive$ ls
+DXC  Job_Switch  Kirti  Personal  jdk-11.0.10_windows-x64_bin.exe  react
+jdwinlinux@DESKTOP-AS2FQOH:/mnt/c/D_Drive$
+```
+###Access linux files from windows files system
+ used comman from linux terminal " ```explorer.exe . ```
+ Winfows file system : ``` \\wsl$\Ubuntu\home\jdwinlinux ```
