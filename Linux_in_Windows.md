@@ -1,0 +1,31 @@
+## How to install linux in windows OS
+- https://docs.microsoft.com/en-us/windows/wsl/install
+- Tutorial : https://docs.microsoft.com/en-us/windows/wsl/setup/environment
+
+![image](https://user-images.githubusercontent.com/69948118/180627700-46181e67-3c22-4b6a-aae2-27aff83171a4.png)
+![image](https://user-images.githubusercontent.com/69948118/180627708-051c0301-35f6-41f8-bc54-41b9526ea271.png)
+
+### Access windows os files into linux
+
+```sh
+jdwinlinux@DESKTOP-AS2FQOH:~/jddocs$ cd /mnt/c/
+jdwinlinux@DESKTOP-AS2FQOH:/mnt/c$ ls
+ls: cannot access 'DumpStack.log.tmp': Permission denied
+ls: cannot access 'hiberfil.sys': Permission denied
+ls: cannot access 'pagefile.sys': Permission denied
+ls: cannot access 'swapfile.sys': Permission denied
+'$Recycle.Bin'             DumpStack.log.tmp   PerfLogs                     Users          pagefile.sys
+'$WinREAgent'              Gradle             'Program Files'               Windows        selenium
+ AVScanner.ini             JD_Google_Drive    'Program Files (x86)'         app            swapfile.sys
+ C_Drive                   Kompose             ProgramData                  gh             xampp
+ D_Drive                   OD                  Recovery                     hiberfil.sys
+'Documents and Settings'   OneDriveTemp       'System Volume Information'   kubectl
+jdwinlinux@DESKTOP-AS2FQOH:/mnt/c$ cd D_Drive/
+jdwinlinux@DESKTOP-AS2FQOH:/mnt/c/D_Drive$ ls
+DXC  Job_Switch  Kirti  Personal  jdk-11.0.10_windows-x64_bin.exe  react
+jdwinlinux@DESKTOP-AS2FQOH:/mnt/c/D_Drive$
+```
+
+### Access linux files from windows files system
+- used comman from linux terminal " explorer.exe . Winfows file system : \\wsl$\Ubuntu\home\jdwinlinux
+
