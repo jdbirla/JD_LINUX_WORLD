@@ -1,7 +1,8 @@
 ## How to install linux in windows OS
 - https://docs.microsoft.com/en-us/windows/wsl/install
 - Tutorial : https://docs.microsoft.com/en-us/windows/wsl/setup/environment
-
+- YouTUbe : https://www.youtube.com/watch?v=uWNpXOT-Zbo&list=PLhfrWIlLOoKNMHhB39bh3XBpoLxV3f0V9&index=4
+- 
 ![image](https://user-images.githubusercontent.com/69948118/180627700-46181e67-3c22-4b6a-aae2-27aff83171a4.png)
 ![image](https://user-images.githubusercontent.com/69948118/180627708-051c0301-35f6-41f8-bc54-41b9526ea271.png)
 
