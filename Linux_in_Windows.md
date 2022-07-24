@@ -30,3 +30,10 @@ jdwinlinux@DESKTOP-AS2FQOH:/mnt/c/D_Drive$
 ### Access linux files from windows files system
 - used comman from linux terminal " explorer.exe . Winfows file system : \\wsl$\Ubuntu\home\jdwinlinux
 
+---
+### Windows Terminal
+![image](https://user-images.githubusercontent.com/69948118/180634720-53037c82-826f-48f3-9ebe-bb9d170d4a70.png)
+![image](https://user-images.githubusercontent.com/69948118/180634753-6ddfe1fd-368c-4be5-93d4-480997805243.png)
+
+
+
