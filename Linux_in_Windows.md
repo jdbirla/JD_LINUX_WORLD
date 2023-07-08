@@ -7,6 +7,11 @@
 ![image](https://user-images.githubusercontent.com/69948118/180627708-051c0301-35f6-41f8-bc54-41b9526ea271.png)
 
 ### Access windows os files into linux
+- user: jdwinlinux
+- pass: jdwinlinux
+
+### How to change password in wsl
+https://www.jamestharpe.com/wsl-root-password/#:~:text=Open%20PowerShell%2C%20then%20use%20the,your%20password%20twice%20as%20prompted.
 
 ```sh
 jdwinlinux@DESKTOP-AS2FQOH:~/jddocs$ cd /mnt/c/
