@@ -111,3 +111,22 @@ To determine why you are seeing Java 11 instead of Java 17, you can check the fo
 3. Ensure that you are running the `java --version` command from within WSL and not from a Windows command prompt or PowerShell. The behavior of the `java` command may differ depending on the environment from which it is executed.
 
 By investigating these aspects, you should be able to determine why Java 11 is being displayed when running `java --version` in WSL, despite having Java 17 listed in the `$PATH` variable.
+
+### you mean if I have docker install in windows I can access docker inside wsl without insalling docker in wsl
+Yes, that's correct. If you have Docker Desktop installed on your Windows system, you can access and use Docker from within WSL without needing to install Docker separately inside WSL.
+
+Here's how it works:
+
+1. Install Docker Desktop: Ensure that you have Docker Desktop installed and running on your Windows system. Docker Desktop includes the necessary components to run Docker containers both in Windows and within WSL.
+
+2. Enable WSL Integration: In Docker Desktop settings, you can enable the WSL integration feature. This establishes a connection between Docker running in Windows and the WSL distribution of your choice.
+
+3. Run Docker Commands in WSL: Once the WSL integration is enabled, you can open a WSL terminal and use Docker commands just like you would in a Linux environment. Docker commands executed within WSL will be executed in the Docker engine running in Windows, but the containers themselves will run within the WSL environment.
+
+This integration allows you to seamlessly work with Docker containers from both Windows and WSL, using the same Docker installation. You can build, run, and manage containers from either environment without the need for duplicate installations or configurations.
+
+By leveraging Docker Desktop's integrated support for WSL, you can maintain a unified Docker experience and avoid potential conflicts or inconsistencies that might arise from separately installing Docker within WSL.
+
+### How to use intellij in WSl
+- https://www.jetbrains.com/help/idea/how-to-use-wsl-development-environment-in-product.html#debugging_system_settings
+- 
