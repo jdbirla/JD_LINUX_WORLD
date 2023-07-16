@@ -75,3 +75,25 @@ localhost:3390
 ---
 
 ### WSL 2 Networking
+----
+## How to create Dev env in wsl
+### Can we use application from windows to wsl 
+Yes, you can access and use the software and tools installed in the Windows file system from within WSL. When you install WSL, it provides a mechanism for integrating the Windows file system with the Linux environment.
+
+By default, the Windows file system is mounted under the `/mnt` directory in WSL. This means you can access your Windows drives and files from within WSL. For example, your `C:` drive will be available at `/mnt/c/` in WSL.
+
+To use software or tools installed in the Windows file system within WSL, you have a couple of options:
+
+1. Use the Windows executable directly: If you have software installed in Windows, such as Git or Maven, you can execute them from the WSL command line by specifying the full path to the executable. For example, you can run `C:\Path\To\Git\git` or `C:\Path\To\Maven\mvn` from within WSL.
+
+2. Add Windows executable path to WSL's PATH: If you want to use Windows executables without specifying the full path every time, you can add the Windows executable directory to the PATH environment variable in WSL. This way, you can simply run the commands by their names. To do this, you'll need to edit the `~/.bashrc` or `~/.bash_profile` file in WSL and add the following line:
+
+   ```
+   export PATH=$PATH:/mnt/c/Path/To/Executable
+   ```
+
+   Replace `/mnt/c/Path/To/Executable` with the actual path to the directory containing the executables you want to use. After saving the file, you'll need to restart your WSL session or run `source ~/.bashrc` or `source ~/.bash_profile` for the changes to take effect.
+
+By leveraging these approaches, you can seamlessly use software and tools installed in the Windows file system within your WSL Linux environment.
+
+### 
