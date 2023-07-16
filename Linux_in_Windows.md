@@ -5,6 +5,7 @@
 - 
 ![image](https://user-images.githubusercontent.com/69948118/180627700-46181e67-3c22-4b6a-aae2-27aff83171a4.png)
 ![image](https://user-images.githubusercontent.com/69948118/180627708-051c0301-35f6-41f8-bc54-41b9526ea271.png)
+- https://jensknipper.de/blog/using-maven-in-wsl/
 
 ### Access windows os files into linux
 - user: jdwinlinux
@@ -96,4 +97,17 @@ To use software or tools installed in the Windows file system within WSL, you ha
 
 By leveraging these approaches, you can seamlessly use software and tools installed in the Windows file system within your WSL Linux environment.
 
-### 
+### When I execute 'java --version' in wsl I can see corretto-11 while checking using above command from $PATH , the java path is `/mnt/c/Program Files/Java/jdk-17.0.5/bin` , I don't understand this, Why I can see java 11 not java 17
+The situation you described suggests that there might be multiple Java versions installed on your system, and the one being executed when you run `java --version` in WSL is not the same as the one listed in the `/mnt/c/Program Files/Java/jdk-17.0.5/bin` path.
+
+When you run `java --version` in WSL, it searches for the executable in the directories listed in the `$PATH` variable in the order they are specified. It stops at the first occurrence of `java` that it finds.
+
+To determine why you are seeing Java 11 instead of Java 17, you can check the following:
+
+1. Check the order of directories in the `$PATH` variable. Run `echo $PATH` in WSL to verify the order of directories. If the directory containing the Java 11 executable appears before the one containing Java 17, then that could be the reason why Java 11 is being picked up.
+
+2. Verify if there are any symbolic links or aliases set up for the `java` command. It's possible that there is a symbolic link or an alias pointing to the Java 11 executable, even though the `$PATH` variable points to Java 17. You can check this by running `ls -l /usr/bin/java` in WSL to see if it is pointing to a different location.
+
+3. Ensure that you are running the `java --version` command from within WSL and not from a Windows command prompt or PowerShell. The behavior of the `java` command may differ depending on the environment from which it is executed.
+
+By investigating these aspects, you should be able to determine why Java 11 is being displayed when running `java --version` in WSL, despite having Java 17 listed in the `$PATH` variable.
