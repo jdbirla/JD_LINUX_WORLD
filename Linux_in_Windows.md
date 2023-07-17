@@ -130,4 +130,8 @@ By leveraging Docker Desktop's integrated support for WSL, you can maintain a un
 ### How to use intellij in WSl
 - https://www.jetbrains.com/help/idea/how-to-use-wsl-development-environment-in-product.html#debugging_system_settings
 - trouble shooting  : https://stackoverflow.com/questions/67116880/how-to-correctly-set-up-intellij-with-wsl2
- ### 
+
+
+### Git ssh
+- https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+- https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories
