@@ -135,7 +135,9 @@ By leveraging Docker Desktop's integrated support for WSL, you can maintain a un
 ### Git ssh
 - https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 - https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories
-
+----
+## GUI in linux
+ - https://medium.com/javarevisited/using-wsl-2-with-x-server-linux-on-windows-a372263533c3
 ----
 ## How to work in WSL from Local Intellij and use Java Project from WSL
 - https://youtrack.jetbrains.com/issue/IDEA-267333/Maven-wsl-projects-is-failing-to-resolve-dependencies
