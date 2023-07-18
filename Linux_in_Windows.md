@@ -135,3 +135,93 @@ By leveraging Docker Desktop's integrated support for WSL, you can maintain a un
 ### Git ssh
 - https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 - https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories
+
+----
+## How to work in WSL from Local Intellij and use Java Project from WSL
+- https://youtrack.jetbrains.com/issue/IDEA-267333/Maven-wsl-projects-is-failing-to-resolve-dependencies
+![image](https://github.com/jdbirla/JD_LINUX_WORLD/assets/69948118/ed996c9c-12b1-47c0-9663-92acb0607d10)
+
+### Install Java in wsl 
+```sh
+sudo apt update
+sudo apt upgrade
+
+sudo apt install openjdk-11-jdk
+
+
+
+
+```
+#### Set Java Home Path in .bashrc file and restart the terminal
+![image](https://github.com/jdbirla/JD_LINUX_WORLD/assets/69948118/f203e2f9-46b0-4f79-8bfa-8d4d811c5f05)
+```sh
+jdwinlinux@PSL-21VL6Q3:~$ java --version
+openjdk 11.0.19 2023-04-18
+OpenJDK Runtime Environment (build 11.0.19+7-post-Ubuntu-0ubuntu122.04.1)
+OpenJDK 64-Bit Server VM (build 11.0.19+7-post-Ubuntu-0ubuntu122.04.1, mixed mode, sharing)
+jdwinlinux@PSL-21VL6Q3:~$
+```
+### Remove home path from windows 
+```
+%Maven_Home%\bin
+%JAVA_HOME%\bin
+```
+
+### Install maven in WSL
+#### Download apche maven from maven official site not from apt package
+![image](https://github.com/jdbirla/JD_LINUX_WORLD/assets/69948118/4c2208ee-b0b3-4f5d-ae29-274f24a28d10)
+- Unzip this tar and move to /opt folder
+```sh
+  unzip apache-maven-3.8.8-bin.zip 
+sudo mv apache-maven-3.8.8 /opt/
+```
+#### Set the home path for maven in .profile Don't set maven in .bashrc file
+```sh
+vim ~/.profile
+# Add below lines as per your path in .profile
+export M2_HOME=/opt/apache-maven-3.8.8
+export PATH="$PATH:$M2_HOME/bin"
+mvn --version
+```
+![image](https://github.com/jdbirla/JD_LINUX_WORLD/assets/69948118/63ae6b96-1d18-4923-8ca1-3811365a1e39)
+
+![image](https://github.com/jdbirla/JD_LINUX_WORLD/assets/69948118/5d77f3d3-3ff4-4e12-8152-4e788c089dab)
+
+### Set Intellij
+#### Intellij version used
+![image](https://github.com/jdbirla/JD_LINUX_WORLD/assets/69948118/2243d28f-0d32-47a2-a912-ab5356940d1f)
+
+#### Set Java SDK from WSL in project structure
+![image](https://github.com/jdbirla/JD_LINUX_WORLD/assets/69948118/e0a576d3-4544-4654-907a-9987f0728f36)
+#### Set Maven home path from WSL
+![image](https://github.com/jdbirla/JD_LINUX_WORLD/assets/69948118/184ae263-6a86-4a27-a9a8-aafb78d721f1)
+
+#### Set JDK for importer from WSL
+![image](https://github.com/jdbirla/JD_LINUX_WORLD/assets/69948118/c95a01f2-7a15-4a96-945c-134943f8a4c0)
+
+---
+## How to work in WSL use intellij also from wsl
+### Check arch type for linux machine
+![image](https://github.com/jdbirla/JD_LINUX_WORLD/assets/69948118/c92a6356-812a-49cf-ad32-29d54581da42)
+### Goto intellij site and download community version for linux X86_64
+![image](https://github.com/jdbirla/JD_LINUX_WORLD/assets/69948118/9ebeafbb-472b-4130-8517-fddeaeb03022)
+### Move that tar file in wsl dir
+![image](https://github.com/jdbirla/JD_LINUX_WORLD/assets/69948118/2fc45a61-37f7-4c84-bcc7-018b019feccc)
+
+### unzip that file and move to /opt
+```sh
+sudo tar -xzf intellij.x.x.x
+sudo mv intellij.x.x.x /opt
+```
+### Create symbolic link
+```sh
+sudo ln -s /opt/idea-IC-231.9225.16/bin/idea.sh /usr/local/bin/idea
+```
+### you can use now
+` sudo idea`
+### It will open intellij
+![image](https://github.com/jdbirla/JD_LINUX_WORLD/assets/69948118/19c03424-e09b-48a8-8805-63cc9ca082aa)
+![image](https://github.com/jdbirla/JD_LINUX_WORLD/assets/69948118/f15614ff-031c-4fff-ad16-51ea4b6eba8e)
+![image](https://github.com/jdbirla/JD_LINUX_WORLD/assets/69948118/81426168-2a08-4ac2-8dd5-048c8402ed76)
+
+
