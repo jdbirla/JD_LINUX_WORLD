@@ -209,6 +209,12 @@ VcXsrv provides additional configuration options that you can explore to customi
 As with any X server solution for WSL2, keep in mind that running GUI applications in this manner might have limitations and performance considerations, especially for graphics-intensive applications. For a more integrated and native experience, you can also explore the Windows Subsystem for Linux GUI (WSLg) feature, which aims to provide better support for Linux GUI applications in WSL2.
 
 
+![image](https://github.com/jdbirla/JD_LINUX_WORLD/assets/69948118/0b82757e-3696-487a-abe4-33696026a549)
+![image](https://github.com/jdbirla/JD_LINUX_WORLD/assets/69948118/af9d87f9-0ea2-4907-ab67-4b8d56d903fd)
+![image](https://github.com/jdbirla/JD_LINUX_WORLD/assets/69948118/19c95b93-3a2c-4e7c-9e59-29577c5b6d87)
+![image](https://github.com/jdbirla/JD_LINUX_WORLD/assets/69948118/297a2572-3010-4ae0-b5ec-ffcb82b31bcf)
+![image](https://github.com/jdbirla/JD_LINUX_WORLD/assets/69948118/fdb3f83a-190e-4bf1-8181-a18f8fb62005)
+
 ----
 ## How to work in WSL from Local Intellij and use Java Project from WSL
 - https://youtrack.jetbrains.com/issue/IDEA-267333/Maven-wsl-projects-is-failing-to-resolve-dependencies
