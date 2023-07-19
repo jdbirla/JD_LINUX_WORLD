@@ -138,6 +138,77 @@ By leveraging Docker Desktop's integrated support for WSL, you can maintain a un
 ----
 ## GUI in linux
  - https://medium.com/javarevisited/using-wsl-2-with-x-server-linux-on-windows-a372263533c3
+ - As of my knowledge cutoff in September 2021, WSL2 (Windows Subsystem for Linux) does not have built-in support for running graphical user interface (GUI) applications directly on Windows. WSL2 is primarily designed for command-line and server-based applications.
+
+However, there are some workarounds to enable GUI applications in WSL2 by using an X server on Windows. Here's a step-by-step guide on how to set up a graphical environment for WSL2:
+
+1. Install an X server on Windows:
+   To enable GUI applications in WSL2, you need to install an X server on your Windows machine. One popular option is Xming (https://sourceforge.net/projects/xming/). Download and install the Xming X Server on your Windows system.
+
+2. Set the DISPLAY environment variable in WSL2:
+   In your WSL2 terminal, set the `DISPLAY` environment variable to point to your Windows machine's IP address and the display number. Replace `<Windows_IP>` with your actual Windows machine's IP address. You can find your IP address by running `ipconfig` in a Windows Command Prompt or PowerShell.
+   ```
+   export DISPLAY=<Windows_IP>:0.0
+   ```
+
+3. Install GUI packages in WSL2:
+   You will need to install necessary GUI packages in your WSL2 distribution. For example, you can install a lightweight desktop environment like XFCE4 along with other required components:
+   ```
+   sudo apt update
+   sudo apt install xfce4 xfce4-goodies x11-apps
+   ```
+
+4. Run Xming on Windows:
+   Start the Xming X Server on your Windows machine. Make sure it is running and ready to accept connections.
+
+5. Test the GUI application:
+   You can now test if GUI applications work in WSL2. For example, you can run the `xfce4-session` command to start the XFCE desktop environment:
+   ```
+   xfce4-session
+   ```
+
+   The GUI applications launched from within WSL2 should now be displayed on your Windows desktop through the X server.
+
+Please note that running GUI applications in WSL2 using an X server can have limitations and performance considerations. It is not a native or fully optimized solution, so complex or graphics-intensive applications may not work as expected.
+
+Always remember to check for the latest developments and improvements related to GUI support in WSL2, as Microsoft may introduce new features or changes in future updates. Additionally, you can explore alternative solutions like using Windows Subsystem for Linux GUI (WSLg), which aims to provide a more integrated and native experience for running Linux GUI applications in WSL2.
+
+Yes, there are other X servers for Windows that you can use instead of Xming. One popular alternative to Xming is VcXsrv (also known as VcXsrv Windows X Server). VcXsrv provides similar functionality and allows you to run graphical applications from WSL2 and other Linux distributions on your Windows desktop.
+
+Here's how you can use VcXsrv to enable GUI applications in WSL2:
+
+1. Install VcXsrv:
+   Download VcXsrv from its GitHub repository (https://sourceforge.net/projects/vcxsrv/). Choose the latest release version and download the installer. Run the installer to install VcXsrv on your Windows machine.
+
+2. Set the DISPLAY environment variable in WSL2:
+   In your WSL2 terminal, set the `DISPLAY` environment variable to point to the VcXsrv X server. The default display number for VcXsrv is 0.
+   ```
+   export DISPLAY=:0
+   ```
+
+3. Install GUI packages in WSL2 (if not already installed):
+   As mentioned earlier, you may need to install necessary GUI packages in your WSL2 distribution. For example, you can install a lightweight desktop environment like XFCE4 along with other required components:
+   ```
+   sudo apt update
+   sudo apt install xfce4 xfce4-goodies x11-apps
+   ```
+
+4. Run VcXsrv on Windows:
+   Start the VcXsrv X Server on your Windows machine. You should see the VcXsrv icon in your system tray indicating that it's running and ready to accept connections.
+
+5. Test the GUI application:
+   You can now test if GUI applications work in WSL2. For example, you can run the `xfce4-session` command to start the XFCE desktop environment:
+   ```
+   xfce4-session
+   ```
+
+   The GUI applications launched from within WSL2 should now be displayed on your Windows desktop through VcXsrv.
+
+VcXsrv provides additional configuration options that you can explore to customize the X server behavior according to your preferences. Remember to check the VcXsrv documentation and GitHub repository for more information and updates.
+
+As with any X server solution for WSL2, keep in mind that running GUI applications in this manner might have limitations and performance considerations, especially for graphics-intensive applications. For a more integrated and native experience, you can also explore the Windows Subsystem for Linux GUI (WSLg) feature, which aims to provide better support for Linux GUI applications in WSL2.
+
+
 ----
 ## How to work in WSL from Local Intellij and use Java Project from WSL
 - https://youtrack.jetbrains.com/issue/IDEA-267333/Maven-wsl-projects-is-failing-to-resolve-dependencies
