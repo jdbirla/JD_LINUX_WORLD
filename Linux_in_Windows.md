@@ -303,4 +303,7 @@ sudo ln -s /opt/idea-IC-231.9225.16/bin/idea.sh /usr/local/bin/idea
 ![image](https://github.com/jdbirla/JD_LINUX_WORLD/assets/69948118/f15614ff-031c-4fff-ad16-51ea4b6eba8e)
 ![image](https://github.com/jdbirla/JD_LINUX_WORLD/assets/69948118/81426168-2a08-4ac2-8dd5-048c8402ed76)
 
+---
+## AWS CLI COnfiguration
+- https://devopscube.com/install-configure-aws-cli-linux/
 
