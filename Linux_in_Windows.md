@@ -1,3 +1,36 @@
+# Linux in windows
+
+# Table of contents
+- [Linux in windows](#linux-in-windows)
+  - [How to install linux in windows OS](#how-to-install-linux-in-windows-os)
+    - [Access windows os files into linux](#access-windows-os-files-into-linux)
+    - [How to change password in wsl](#how-to-change-password-in-wsl)
+    - [Access linux files from windows files system](#access-linux-files-from-windows-files-system)
+    - [Windows Terminal](#windows-terminal)
+    - [Run Linux GUI apps on the Windows Subsystem for Linux](#run-linux-gui-apps-on-the-windows-subsystem-for-linux)
+    - [WSL 2 Networking](#wsl-2-networking)
+  - [How to create Dev env in wsl](#how-to-create-dev-env-in-wsl)
+    - [Can we use application from windows to wsl](#can-we-use-application-from-windows-to-wsl)
+    - [How to use intellij in WSl](#how-to-use-intellij-in-wsl)
+    - [Git ssh](#git-ssh)
+  - [GUI in linux](#gui-in-linux)
+  - [How to work in WSL from Local Intellij and use Java Project from WSL](#how-to-work-in-wsl-from-local-intellij-and-use-java-project-from-wsl)
+    - [Install Java in wsl](#install-java-in-wsl)
+    - [Remove home path from windows](#remove-home-path-from-windows)
+    - [Install maven in WSL](#install-maven-in-wsl)
+    - [Set Intellij](#set-intellij)
+  - [How to work in WSL use intellij also from wsl](#how-to-work-in-wsl-use-intellij-also-from-wsl)
+    - [Check arch type for linux machine](#check-arch-type-for-linux-machine)
+    - [Goto intellij site and download community version for linux X86_64](#goto-intellij-site-and-download-community-version-for-linux-x86_64)
+    - [Move that tar file in wsl dir](#move-that-tar-file-in-wsl-dir)
+    - [unzip that file and move to /opt](#unzip-that-file-and-move-to-opt)
+    - [Create symbolic link](#create-symbolic-link)
+    - [you can use now](#you-can-use-now)
+    - [It will open intellij](#it-will-open-intellij)
+  - [AWS CLI COnfiguration](#aws-cli-configuration)
+  - [Installing docker in WSl2 without Docker desktop no license required](#installing-docker-in-wsl2-without-docker-desktop-no-license-required)
+ 
+  
 ## How to install linux in windows OS
 - https://docs.microsoft.com/en-us/windows/wsl/install
 - Tutorial : https://docs.microsoft.com/en-us/windows/wsl/setup/environment
@@ -307,3 +340,6 @@ sudo ln -s /opt/idea-IC-231.9225.16/bin/idea.sh /usr/local/bin/idea
 ## AWS CLI COnfiguration
 - https://devopscube.com/install-configure-aws-cli-linux/
 
+---
+## Installing docker in WSl2 without Docker desktop no license required
+- https://dev.to/bowmanjd/install-docker-on-windows-wsl-without-docker-desktop-34m9
