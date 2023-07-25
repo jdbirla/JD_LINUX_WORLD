@@ -344,3 +344,4 @@ sudo ln -s /opt/idea-IC-231.9225.16/bin/idea.sh /usr/local/bin/idea
 ## Installing docker in WSl2 without Docker desktop no license required
 - https://dev.to/bowmanjd/install-docker-on-windows-wsl-without-docker-desktop-34m9
 - https://nickjanetakis.com/blog/install-docker-in-wsl-2-without-docker-desktop
+![image](https://github.com/jdbirla/JD_LINUX_WORLD/assets/69948118/7bb2acfe-52d9-4289-a0c7-68a5a951fc93)
