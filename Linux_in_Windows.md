@@ -345,3 +345,15 @@ sudo ln -s /opt/idea-IC-231.9225.16/bin/idea.sh /usr/local/bin/idea
 - https://dev.to/bowmanjd/install-docker-on-windows-wsl-without-docker-desktop-34m9
 - https://nickjanetakis.com/blog/install-docker-in-wsl-2-without-docker-desktop
 ![image](https://github.com/jdbirla/JD_LINUX_WORLD/assets/69948118/7bb2acfe-52d9-4289-a0c7-68a5a951fc93)
+
+---
+## Setup mf-aod for all fund
+- If project is closing automatically while oprning then open that project from other intellin from windows.
+- second option try open project from idea.sh intellij
+![image](https://github.com/jdbirla/JD_LINUX_WORLD/assets/69948118/5a04d7ca-b9ea-47cb-9552-ec49f3e5bc3e)
+![image](https://github.com/jdbirla/JD_LINUX_WORLD/assets/69948118/789572d7-35af-450c-8184-5ea5e2ee34c3)
+![image](https://github.com/jdbirla/JD_LINUX_WORLD/assets/69948118/ca266f22-392a-4390-b1b4-7b0be3a9cedb)
+![image](https://github.com/jdbirla/JD_LINUX_WORLD/assets/69948118/1f34c2be-ebd7-4d70-9f62-57d93476f2e5)
+
+
+
