@@ -355,5 +355,181 @@ sudo ln -s /opt/idea-IC-231.9225.16/bin/idea.sh /usr/local/bin/idea
 ![image](https://github.com/jdbirla/JD_LINUX_WORLD/assets/69948118/ca266f22-392a-4390-b1b4-7b0be3a9cedb)
 ![image](https://github.com/jdbirla/JD_LINUX_WORLD/assets/69948118/1f34c2be-ebd7-4d70-9f62-57d93476f2e5)
 
+---
+## WSL Commands
+Windows Subsystem for Linux (WSL) allows you to run a Linux distribution on your Windows machine. Here are some useful WSL commands to manage and use WSL effectively:
 
+### Basic WSL Commands
+
+1. **Launch WSL:**
+   ```sh
+   wsl
+   ```
+   This command launches the default WSL distribution.
+
+2. **Launch a Specific Distribution:**
+   ```sh
+   wsl -d <DistroName>
+   ```
+   Replace `<DistroName>` with the name of your installed distribution (e.g., Ubuntu, Debian).
+
+3. **List All Installed Distributions:**
+   ```sh
+   wsl -l -v
+   ```
+   This command lists all installed WSL distributions along with their version (WSL 1 or WSL 2).
+
+4. **Set Default Distribution:**
+   ```sh
+   wsl --set-default <DistroName>
+   ```
+   This sets the specified distribution as the default one to be used when `wsl` is run without arguments.
+
+5. **Set WSL Version:**
+   ```sh
+   wsl --set-version <DistroName> <Version>
+   ```
+   Replace `<DistroName>` with your distribution's name and `<Version>` with `1` or `2` to set the WSL version.
+
+6. **Check WSL Version:**
+   ```sh
+   wsl -l -v
+   ```
+   This command will show the current version (WSL 1 or WSL 2) for each installed distribution.
+
+7. **Terminate a Distribution:**
+   ```sh
+   wsl --terminate <DistroName>
+   ```
+   This command terminates the specified running distribution.
+
+8. **Shutdown WSL:**
+   ```sh
+   wsl --shutdown
+   ```
+   This command stops all running WSL distributions and the WSL 2 lightweight utility virtual machine.
+
+9. **Import a Distribution:**
+   ```sh
+   wsl --import <DistroName> <InstallLocation> <TarFile>
+   ```
+   Imports a tar file as a new WSL distribution.
+
+10. **Export a Distribution:**
+    ```sh
+    wsl --export <DistroName> <FileName>
+    ```
+    Exports the specified distribution to a tar file.
+
+11. **Unregister a Distribution:**
+    ```sh
+    wsl --unregister <DistroName>
+    ```
+    Unregisters the specified distribution, deleting all its data.
+
+### Using Linux Commands in WSL
+
+Once you are in the WSL environment, you can use typical Linux commands. Here are some commonly used Linux commands:
+
+1. **Update Package Lists:**
+   ```sh
+   sudo apt update
+   ```
+
+2. **Upgrade Packages:**
+   ```sh
+   sudo apt upgrade
+   ```
+
+3. **Install a Package:**
+   ```sh
+   sudo apt install <package-name>
+   ```
+
+4. **Change Directory:**
+   ```sh
+   cd /path/to/directory
+   ```
+
+5. **List Directory Contents:**
+   ```sh
+   ls -la
+   ```
+
+6. **Copy Files:**
+   ```sh
+   cp source_file destination_file
+   ```
+
+7. **Move or Rename Files:**
+   ```sh
+   mv old_name new_name
+   ```
+
+8. **Remove Files or Directories:**
+   ```sh
+   rm -rf /path/to/file_or_directory
+   ```
+
+9. **Display Current Directory:**
+   ```sh
+   pwd
+   ```
+
+10. **View File Contents:**
+    ```sh
+    cat filename
+    ```
+
+11. **Edit Files with Nano:**
+    ```sh
+    nano filename
+    ```
+
+### Windows and WSL Integration
+
+1. **Access Windows Files from WSL:**
+   ```sh
+   cd /mnt/c/Users/YourUsername
+   ```
+   The `C:` drive and other Windows drives are mounted under `/mnt` in WSL.
+
+2. **Run Windows Commands from WSL:**
+   ```sh
+   explorer.exe .
+   ```
+   This opens the current directory in Windows File Explorer.
+
+3. **Run Linux Commands from Windows Command Prompt or PowerShell:**
+   ```sh
+   wsl ls -la
+   ```
+   This runs the `ls -la` command in the default WSL distribution.
+
+### Networking and WSL
+
+1. **Check IP Address:**
+   ```sh
+   ip addr
+   ```
+
+2. **Ping a Server:**
+   ```sh
+   ping www.example.com
+   ```
+
+3. **Display Network Configuration:**
+   ```sh
+   ifconfig
+   ```
+
+### File Management
+
+1. **Copy Files between Windows and WSL:**
+   ```sh
+   cp /mnt/c/Users/YourUsername/file.txt /home/youruser/
+   cp /home/youruser/file.txt /mnt/c/Users/YourUsername/
+   ```
+
+By using these commands, you can effectively manage and use WSL on your Windows machine.
 
